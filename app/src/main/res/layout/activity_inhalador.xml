@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".Inhalador">
+    <TextView
+        android:id="@+id/txdTitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="TITULO"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000000"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txdSubtitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:typeface="sans"
+        android:paddingTop="1dp"
+        android:layout_below="@+id/txdTitulo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txddosis"
+        android:typeface="sans"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:text="tvdosis"
+        android:layout_below="@id/txdSubtitulo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txdJarabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="jarabe"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/txddosis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/txdOtrasPresenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/txdCantidad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="13dp" />
+
+
+
+    <TextView
+        android:id="@+id/txdCada"
+        android:text="cada"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/txdJarabe"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/txdCantidad"
+        android:text="cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="#4816df"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txdJarabe"
+        android:layout_alignParentStart="true" />
+
+
+
+
+    <Spinner
+        android:id="@+id/spiner_lista_jar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:transitionGroup="false"
+        android:touchscreenBlocksFocus="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:background="#ffffff"
+        android:layout_alignBottom="@+id/txdOtrasPresenta"
+        android:layout_toRightOf="@+id/txdOtrasPresenta"
+        android:layout_toEndOf="@+id/txdOtrasPresenta" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_volver"
+        android:onClick="onClick"
+        android:src="@android:drawable/ic_menu_revert"
+        android:layout_alignBottom="@+id/txdpeso"
+        android:layout_alignRight="@+id/txdCada"
+        android:layout_alignEnd="@+id/txdCada" />
+    <SeekBar
+        android:id="@+id/barra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:max="40"
+        android:indeterminate="false"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:progress="7"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:id="@+id/txdpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#4816df"
+        android:text="txt_peso"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/barra"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/spiner_lista_jar"
+        android:layout_above="@+id/bt_volver"
+        >
+
+        <TextView
+            android:id="@+id/txdsComerciales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ECF0F0"
+            android:text="Nombres Comerciales"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#0000FF"
+            android:textIsSelectable="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/txdNombreComer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:typeface="sans"
+                android:textSize="18dp"
+                android:textColor="#010000"
+                android:textStyle="bold" />
+
+
+        </ScrollView>
+
+        <TextView
+            android:text="INDICACIONES Y EFECTOS SECUNDARIOS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#0000FF"
+            android:gravity="center"
+            android:background="#ECF0F0"
+            android:paddingTop="5dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txdContra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="TextView" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

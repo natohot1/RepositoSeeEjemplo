@@ -1,0 +1,693 @@
+<resources>
+    <string name="app_name">Jarabes</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <string name="tx_q_buscas">QUE BUSCAS</string>
+    <string name="cantidad">cantidad</string>
+    <string name="todo">TODO</string>
+
+
+    <string-array name="medica_array">
+        <item>ACETILCISTEINA</item>
+        <item>ACETILCISTEINA 100</item>
+        <item>ACETILCISTEINA 200</item>
+        <item>ACICLOVIR</item>
+        <item>ACTITHIOL MUCOLITICO INFANTIL</item>
+        <item>ACTITHIOL MUCOLITICO 50 ADULTO</item>
+        <item>AERIUS</item>
+        <item>ALERGOLIBER</item>
+        <item>ALERLISIN GOTAS</item>
+        <item>ALERLISIN SOLUCION</item>
+        <item>AMBROXOL</item>
+        <item>AMBROXOL PEDIATRICO</item>
+        <item>AMOXI GOBENS</item>
+        <item>AMOXICILINA CLAVULANICO 125</item>
+        <item>AMOXICILINA CLAVULANICO 250</item>
+        <item>AMOXICILINA</item>
+        <item>APIRETAL</item>
+        <item>APIROFENO</item>
+        <item>ATARAX</item>
+        <item>AUGMENTINE</item>
+        <item>AZITROMICINA</item>
+        <item>AZOMYR</item>
+        <item>BENORAL</item>
+        <item>BICASAN</item>
+        <item>BISOLVON ANTITUSIVO</item>
+        <item>CARBOCISTEINA</item>
+        <item>CECLOR</item>
+        <item>CEDAX</item>
+        <item>CEFTIBUTENO</item>
+        <item>CEFACLOR</item>
+        <item>CEFADROXILO</item>
+        <item>CEFIXIMA</item>
+        <item>CEFPODOXIMA</item>
+        <item>CEFUROXIMA</item>
+        <item>CETIRIZINA</item>
+        <item>CINFAMUCOL</item>
+        <item>CINFATOX INFANTIL</item>
+        <item>CIVERAN</item>
+        <item>CLAMOXYL</item>
+        <item>CLARITROMICINA</item>
+        <item>CLOPERASTINA</item>
+        <item>DALSY</item>
+        <item>DASTOSIN</item>
+        <item>DEFLAZACORT</item>
+        <item>DENVAR</item>
+        <item>DESLORATADINA</item>
+        <item>DEXCLORFENIRAMINA</item>
+        <item>DEXTROMETORFANO</item>
+        <item>DEZACOR GOTAS</item>
+        <item>DOXICICLINA</item>
+        <item>DIFLUCAN 10</item>
+        <item>DIFLUCAN 40</item>
+        <item>DIMEMORFANO</item>
+        <item>DINOBROXOL</item>
+        <item>DURACEF</item>
+        <item>EBASTEL</item>
+        <item>EBASTINA</item>
+        <item>EFFERALGAN PEDIATRICO</item>
+        <item>ERITROGOBENS</item>
+        <item>ERITROMICINA</item>
+        <item>ESTILSONA GOTAS</item>
+        <item>FENOXI METIL PENICILINA</item>
+        <item>FLAGYL</item>
+        <item>FLUIDIN MUCOLITICO</item>
+        <item>FLUMIL INFANTIL</item>
+        <item>FLUMIL 4% SOLUCION</item>
+        <item>FLUTOX</item>
+        <item>FOSFOCINA</item>
+        <item>FRENATERMIN 2%</item>
+        <item>HIDROXIZINA</item>
+        <item>IBUPROFENO</item>
+        <item>INISTON ANTITUSIVO</item>
+        <item>INISTON MUCOLITICO</item>
+        <item>JOSAMINA 250</item>
+        <item>JOSAMINA 500</item>
+        <item>JUNIFEN</item>
+        <item>JUNIFEN 4%</item>
+        <item>KETOTIFENO</item>
+        <item>LEVOCETIRIZINA</item>
+        <item>LEVODROPROPIZINA</item>
+        <item>LEVOTUSS GOTAS</item>
+        <item>LEVOTUSS</item>
+        <item>LOMPER</item>
+        <item>LORATADINA</item>
+        <item>MEQUITAZINA</item>
+        <item>METALGIAL</item>
+        <item>METAMIZOL</item>
+        <item>METRONIDAZOL</item>
+        <item>MIDECAMICINA</item>
+        <item>MIRCOL</item>
+        <item>MOTOSOL</item>
+        <item>MUCIBRON</item>
+        <item>MUCOSAN PEDIATRICO</item>
+        <item>MUCOSAN</item>
+        <item>MYCOSTATIN</item>
+        <item>MYOXAM</item>
+        <item>NAXPA</item>
+        <item>NOSCAPINA</item>
+        <item>ORBENIN</item>
+        <item>OTREON</item>
+        <item>PAMOATO DE PIRANTEL</item>
+        <item>PANTOMICINA</item>
+        <item>PARACETAMOL</item>
+        <item>PECTOX</item>
+        <item>PECTOX FORTE</item>
+        <item>PIREXIN</item>
+        <item>POLARAMINE</item>
+        <item>PREDNISOLONA</item>
+        <item>RINIALER</item>
+        <item>ROMILAR GOTAS</item>
+        <item>ROMILAR JARABE</item>
+        <item>RUPAFIN</item>
+        <item>RUPATADINA</item>
+        <item>SEKISAN</item>
+        <item>SEPTRIN PEDIATRICO</item>
+        <item>SULFAMETOXAZOL TRIMETOPRIMA</item>
+        <item>TAUTOSS</item>
+        <item>TEDIPRIMA</item>
+        <item>TERBASMIN</item>
+        <item>TERBUTALINA JARABE</item>
+        <item>TERMALGIN</item>
+        <item>TRILOMBRIN</item>
+        <item>TRIMETOPRIMA</item>
+        <item>TUSCALMAN</item>
+        <item>TUSSIDRILL INFANTIL</item>
+        <item>VIBRACINA</item>
+        <item>VISCOTEINA</item>
+        <item>XAZAL</item>
+        <item>ZAMENE GOTAS</item>
+        <item>ZASTEN</item>
+        <item>ZINNAT</item>
+        <item>ZITROMAX</item>
+        <item>ZOVIRAX 400</item>
+        <item>ZYRTEC GOTAS</item>
+        <item>ZYRTEC SOLUCION</item>
+    </string-array>
+
+
+    <string-array name="ANTIBIOTICOS">
+        <item>ACICLOVIR</item>
+        <item>AMOXI GOBENS</item>
+        <item>AMOXICILINA CLAVULANICO 125</item>
+        <item>AMOXICILINA CLAVULANICO 250</item>
+        <item>AMOXICILINA</item>
+        <item>AUGMENTINE</item>
+        <item>AZITROMICINA</item>
+        <item>BENORAL</item>
+        <item>CECLOR</item>
+        <item>CEDAX</item>
+        <item>CEFACLOR</item>
+        <item>CEFADROXILO</item>
+        <item>CEFIXIMA</item>
+        <item>CEFTIBUTENO</item>
+        <item>CEFUROXIMA</item>
+        <item>CLAMOXYL</item>
+        <item>CLARITROMICINA</item>
+        <item>CLOXACILINA</item>
+        <item>DENVAR</item>
+        <item>DIFLUCAN 10</item>
+        <item>DIFLUCAN 40</item>
+        <item>DOXICICLINA</item>
+        <item>DURACEF</item>
+        <item>ERITROGOBENS</item>
+        <item>ERITROMICINA</item>
+        <item>FENOXI METIL PENICILINA</item>
+        <item>FLAGYL</item>
+        <item>FLUCONAZOL</item>
+        <item>FOSFOCINA</item>
+        <item>FOSFOMICINA</item>
+        <item>JOSAMINA 250</item>
+        <item>JOSAMINA 500</item>
+        <item>LOMPER</item>
+        <item>MEBENDAZOL</item>
+        <item>METRONIDAZOL</item>
+        <item>MYCOSTATIN</item>
+        <item>MIDECAMICINA</item>
+        <item>MYOXAM</item>
+        <item>ORBENIN</item>
+        <item>OTREON</item>
+        <item>PAMOATO DE PIRANTEL</item>
+        <item>PANTOMICINA FORTE</item>
+        <item>PANTOMICINA</item>
+        <item>SEPTRIN PEDIATRICO</item>
+        <item>TEDIPRIMA</item>
+        <item>SULFAMETOXAZOL TRIMETOPRIMA</item>
+        <item>TRIMETOPRIMA</item>
+        <item>VIBRACINA</item>
+        <item>ZINNAT</item>
+        <item>ZITROMAX</item>
+        <item>ZOVIRAX 400</item>
+
+
+    </string-array>
+
+    <string-array name="ANALGESICOS">
+        <item>APIRETAL</item>
+        <item>APIROFENO</item>
+        <item>DALSY</item>
+        <item>EFFERALGAN</item>
+        <item>IBUPROFENO</item>
+        <item>JUNIFEN</item>
+        <item>JUNIFEN 4%</item>
+        <item>METALGIAL</item>
+        <item>METAMIZOL</item>
+        <item>PARACETAMOL</item>
+        <item>PIREXIN</item>
+        <item>TERMALGIN</item>
+    </string-array>
+
+    <string-array name="ANTITUSIGENOS">
+        <item>ACETILCISTEINA</item>
+        <item>ACETILCISTEINA 100</item>
+        <item>ACETILCISTEINA 200</item>
+        <item>ACTITHIOL MUCOLITICO INFANTIL</item>
+        <item>ACTITHIOL MUCOLITICO 50 ADULTO</item>
+        <item>AMBROXOL</item>
+        <item>AMBROXOL PEDIATRICO</item>
+        <item>BICASAN</item>
+        <item>BISOLVON ANTITUSIVO</item>
+        <item>CARBOCISTEINA</item>
+        <item>CINFAMUCOL</item>
+        <item>CINFATOX INFANTIL</item>
+        <item>CLOPERASTINA</item>
+        <item>DASTOSIN</item>
+        <item>DEXTROMETORFANO</item>
+        <item>DIMEMORFANO</item>
+        <item>DINOBROXOL</item>
+        <item>FLUMIL</item>
+        <item>FLUMIL 4% SOLUCION</item>
+        <item>FLUMIL INFANTIL</item>
+        <item>FLUIDIN MUCOLITICO</item>
+        <item>FLUTOX</item>
+        <item>INISTON ANTITUSIVO</item>
+        <item>INISTON MUCOLITICO</item>
+        <item>LEVODROPROPIZINA</item>
+        <item>LEVOTUSS GOTAS</item>
+        <item>LEVOTUSS</item>
+        <item>MOTOSOL</item>
+        <item>MUCIBRON</item>
+        <item>MUCOSAN PEDIATRICO</item>
+        <item>MUCOSAN</item>
+        <item>NAXPA</item>
+        <item>NOSCAPINA</item>
+        <item>PECTOX</item>
+        <item>PECTOX FORTE</item>
+        <item>ROMILAR GOTAS</item>
+        <item>ROMILAR JARABE</item>
+        <item>ROMILAR</item>
+        <item>SEKISAN</item>
+        <item>TAUTOSS</item>
+        <item>TERBASMIN</item>
+        <item>TERBUTALINA JARABE</item>
+        <item>TUSCALMAN</item>
+        <item>TUSSIDRILL INFANTIL</item>
+        <item>VISCOTEINA</item>
+    </string-array>
+
+    <string-array name="ANTIALERGICOS">
+        <item>AERIUS</item>
+        <item>ALERGOLIBER</item>
+        <item>ALERLISIN GOTAS</item>
+        <item>ALERLISIN SOLUCION</item>
+        <item>ATARAX</item>
+        <item>AZOMYR</item>
+        <item>CETIRIZINA GOTAS</item>
+        <item>CETIRIZINA SOLUCION</item>
+        <item>CIVERAN</item>
+        <item>DEFLAZACORT</item>
+        <item>DESLORATADINA</item>
+        <item>DEXCLORFENIRAMINA</item>
+        <item>DEZACOR GOTAS</item>
+        <item>EBASTEL</item>
+        <item>EBASTINA</item>
+        <item>ESTILSONA GOTAS</item>
+        <item>HIDROXIZINA</item>
+        <item>KETOTIFENO</item>
+        <item>LEVOCETIRIZINA</item>
+        <item>LORATADINA</item>
+        <item>MEQUITAZINA</item>
+        <item>MIRCOL</item>
+        <item>POLARAMINE</item>
+        <item>PREDNISOLONA</item>
+        <item>RINIALER</item>
+        <item>RUPAFIN</item>
+        <item>RUPATADINA</item>
+        <item>XAZAL</item>
+        <item>ZAMENE GOTAS</item>
+        <item>ZASTEN</item>
+        <item>ZYRTEC GOTAS</item>
+        <item>ZYRTEC SOLUCION</item>
+    </string-array>
+
+    <string-array name="medica_arrayBolivia">
+        <item>ACETAMIN GOTAS</item>
+        <item>ACETAMIN JARABE</item>
+        <item>ACETAMOL GOTAS</item>
+        <item>ACETAMOL JARABE</item>
+        <item>ACETILCISTEINA</item>
+        <item>ACTIMOL</item>
+        <item>ADROXEF</item>
+        <item>ALBENDAZOL 400MG/20ML</item>
+        <item>ALBENDAZOL</item>
+        <item>AFOREX SUSPENSION</item>
+        <item>ALCOSKECTIL 200MG-40MG/5ML</item>
+        <item>ALERDRYN</item>
+        <item>AMBROX ADULTOS</item>
+        <item>AMBROX NIÑOS</item>
+        <item>AMBROXOL 15MG/5ML</item>
+        <item>AMBROXOL FORTE 30MG/ 5ML</item>
+        <item>AMBROXOL INFANTIL</item>
+        <item>AMBROXOL</item>
+        <item>AMOXI DIF</item>
+        <item>AMOXI DIF 250</item>
+        <item>AMOXICILINA 125MG/5ML</item>
+        <item>AMOXICILINA 250MG</item>
+        <item>AMOXICILINA 500</item>
+        <item>AMOXICILINA CLAVULANICO</item>
+        <item>AMOXICILINA IFARBO 1G</item>
+        <item>AMOXICRIS 500</item>
+        <item>AMOXICRIS DUO 250</item>
+        <item>AMOXICRIS DUO 500</item>
+        <item>AMOXIFAR DUO</item>
+        <item>AMOXILANICO DUO</item>
+        <item>AMOXILANICO</item>
+        <item>AZITROALCOS SUSPENSION</item>
+        <item>AZITROMICINA 200MG/5ML</item>
+        <item>AZITROMICINA</item>
+        <item>B.B. TERM</item>
+        <item>BACTICEL FORTE</item>
+        <item>BACTICEL</item>
+        <item>BACTODINE</item>
+        <item>BAMMOX</item>
+        <item>BRONCATOX</item>
+        <item>BRONCOTEROL ADULTO</item>
+        <item>BRONCOTEROL INFANTIL</item>
+        <item>BRONCOXOL ADULTO 30MG/5ML</item>
+        <item>BRONCOXOL INFANTIL 15MG/5ML</item>
+        <item>BROXILIN DUO FUERTE</item>
+        <item>BROXILIN DUO</item>
+        <item>CEFABIOTIC 100MG/5ML</item>
+        <item>CEFADROXILO</item>
+        <item>CEFIRAX</item>
+        <item>CEFIXCRIS 100</item>
+        <item>CEFIXIMA</item>
+        <item>CEFOTRIX 250mg</item>
+        <item>CEFPODOXIMA</item>
+        <item>CESTODEN 400MG/10ML</item>
+        <item>CETAMODIF</item>
+        <item>CETOFAR 120MG/ML</item>
+        <item>CETOFAR NF 125MG/5ML</item>
+        <item>CLARIBIOTIC 125</item>
+        <item>CLARIBIOTIC 250</item>
+        <item>CLARIMEX 250MG/5ML</item>
+        <item>CLARITROMICINA</item>
+        <item>CLOXACILINA</item>
+        <item>COTRIMOXAZOL 200/40MG</item>
+        <item>COTRIMOXAZOL FORTE</item>
+        <item>COTRIXELL F</item>
+        <item>COTRIXELL S</item>
+        <item>DEGRALER FORTE</item>
+        <item>DEGRALER GOTAS</item>
+        <item>DEGRALER</item>
+        <item>DESLORATADINA</item>
+        <item>DEXTROMETORFANO 10MG/5 ML</item>
+        <item>DEXTROMETORFANO</item>
+        <item>DIACTRIN FUERTE</item>
+        <item>DIACTRIN</item>
+        <item>DIOXADOL G</item>
+        <item>DIPROFEN  FUERTE 200MG/5ML</item>
+        <item>DIPROFEN 100MG/5ML</item>
+        <item>DITRALCINA 1000</item>
+        <item>DITRALCINA 500</item>
+        <item>DOLOTERM SIMPLE 100MG/5ML</item>
+        <item>DOLOTERM</item>
+        <item>DOLOTERMi (Gotas)</item>
+        <item>ERITROMICINA 125</item>
+        <item>ERITROMICINA 250</item>
+        <item>ERITROMICINA</item>
+        <item>ETUSAR</item>
+        <item>FLAGYTOL 250MG/5ML</item>
+        <item>FLUCONAL 50MG/5ML</item>
+        <item>FLUCONAZOL</item>
+        <item>FLUIMUCIL 2%</item>
+        <item>FLUIMUCIL 4%</item>
+        <item>FLUIMUX</item>
+        <item>FLUIMUX</item>
+        <item>HISTAFREN NF</item>
+        <item>IBUFEN SUSPENSION 100MG/5ML</item>
+        <item>IBULYN 100MG/5ML</item>
+        <item>IBUPROFENO 100MG/5ML</item>
+        <item>IBUPROFENO 125MG/5ML</item>
+        <item>IBUPROFENO 200MG/5ML</item>
+        <item>IBUPROFENO</item>
+        <item>IBUPRONAL</item>
+        <item>IFAMET 125MG/5ML</item>
+        <item>IFAMET 250MG/5ML</item>
+        <item>IFATRIM 200MG-40MG/5ML</item>
+        <item>INTIBROXOL</item>
+        <item>JARABE ANTITUSIGENO S</item>
+        <item>KETONAL</item>
+        <item>KETOTIFENO</item>
+        <item>LASER 250</item>
+        <item>LEFREN</item>
+        <item>LEVOCETIRIZINA</item>
+        <item>LEVODROPROPIZINA</item>
+        <item>LEVOTREX GOTAS</item>
+        <item>LEVOTREX</item>
+        <item>LIBBERA</item>
+        <item>LORALGEX 2,5MG/5ML</item>
+        <item>LORASTAMIN</item>
+        <item>LORATADINA</item>
+        <item>MACROTROM 200</item>
+        <item>MACROTROM FORTE</item>
+        <item>MEBENDAZOL 100MG/5ML</item>
+        <item>MEBENDAZOL</item>
+        <item>MEBENFAR 100MG/5ML</item>
+        <item>METAMIZOL</item>
+        <item>METORFANTOS</item>
+        <item>METROGYN 250MG</item>
+        <item>METROGYN</item>
+        <item>METRONIDAZOL 125</item>
+        <item>METRONIDAZOL 250MG/5ML</item>
+        <item>METRONIDAZOL</item>
+        <item>MOXILIN 250MG/5ML</item>
+        <item>MOXILIN 500MG</item>
+        <item>MOXILIN DUO</item>
+        <item>MULTIVERM</item>
+        <item>MUXATIL</item>
+        <item>MYCOTIX</item>
+        <item>NEOALERG</item>
+        <item>NISTATINA 100.000UI/ML</item>
+        <item>NISTATINA 500.000UI/5ml</item>
+        <item>NISTATINA</item>
+        <item>NODOLEX</item>
+        <item>NOVO ALERGINA</item>
+        <item>PARACETAMOL 100MG/ML</item>
+        <item>PARACETAMOL 120MG/5ML</item>
+        <item>PARACETAMOL 125MG/5ML</item>
+        <item>PARACETAMOL</item>
+        <item>PAMOATO DE PIRANTEL</item>
+        <item>PIRANTEL 250MG/5ML</item>
+        <item>PIRANTELINA 250MG/5ML</item>
+        <item>PIREDOL</item>
+        <item>PIROFEN 100MG/5ML</item>
+        <item>PIROFEN FORTE 200MG/5ML</item>
+        <item>POSITRIN 500</item>
+        <item>PREDNISOLONA</item>
+        <item>PRELONE</item>
+        <item>SULFAMETOXAZOL TRIMETOPRIMA VITA</item>
+        <item>SULFATRIM FORTE</item>
+        <item>SULFATRIM</item>
+        <item>TERBUROP</item>
+        <item>TERBUTALINA</item>
+        <item>TERMOVIT</item>
+        <item>TEROLBROX</item>
+        <item>TORFANTOS</item>
+        <item>TOSUNYL</item>
+        <item>TRIACEF 200 MG</item>
+        <item>TRIACEF</item>
+        <item>TRIMESOL FORTE</item>
+        <item>TRIMETOPRIMA SULFAMETOXAZOL</item>
+        <item>VERMIFUGO 100MG/5ML</item>
+        <item>VERMIZOL 100MG/5ML</item>
+        <item>VITANIDAZOL 125MG/5ML</item>
+        <item>VITANIDAZOL 250MG/5MLVITA</item>
+        <item>XELPRIM FORTE</item>
+        <item>XELPRIM</item>
+        <item>ZENTROL</item>
+        <item>ZITROMIN 200MG/5ML</item>
+        <item>ZIVAL GOTAS</item>
+        <item>ZIVAL SOLUCION</item>
+    </string-array>
+
+    <string-array name="ANALGESICOS_BOLIVIA">
+        <item>ACETAMIN GOTAS</item>
+        <item>ACETAMIN JARABE</item>
+        <item>ACETAMOL GOTAS</item>
+        <item>ACETAMOL JARABE</item>
+        <item>ACTIMOL</item>
+        <item>B.B. TERM</item>
+        <item>CETAMODIF</item>
+        <item>CETOFAR 120MG/ML</item>
+        <item>CETOFAR NF 125MG/5ML</item>
+        <item>DIOXADOL G</item>
+        <item>DIPROFEN FUERTE 200MG/5ML</item>
+        <item>DIPROFEN 100MG/5ML</item>
+        <item>DOLOTERM SIMPLE 100MG/5ML</item>
+        <item>DOLOTERM</item>
+        <item>DOLOTERMi (Gotas)</item>
+        <item>IBUFEN SUSPENSION 100MG/5ML</item>
+        <item>IBULYN 100MG/5ML</item>
+        <item>IBUPROFENO 100MG/5ML</item>
+        <item>IBUPROFENO 125MG/5ML</item>
+        <item>IBUPROFENO 200MG/5ML</item>
+        <item>IBUPROFENO</item>
+        <item>IBUPRONAL</item>
+        <item>METAMIZOL</item>
+        <item>NODOLEX</item>
+        <item>PARACETAMOL 100MG/ML</item>
+        <item>PARACETAMOL 120MG/5ML</item>
+        <item>PARACETAMOL 125MG/5ML</item>
+        <item>PARACETAMOL</item>
+        <item>PIREDOL</item>
+        <item>PIROFEN 100MG/5ML</item>
+        <item>PIROFEN FORTE 200MG/5ML</item>
+        <item>PREDNISOLONA</item>
+        <item>PRELONE</item>
+        <item>TERMOVIT</item>
+    </string-array>
+    <string-array name="ANTIBIOTICOS_BOLIVIA">
+        <item>AMOXICILINA 125MG/5ML</item>
+        <item>ADROXEF</item>
+        <item>ALCOSKECTIL 200MG-40MG/5ML</item>
+        <item>ALBENDAZOL</item>
+        <item>ALBENDAZOL 400MG/20ML</item>
+        <item>AFOREX SUSPENSION</item>
+        <item>AMOXI  DIF</item>
+        <item>AMOXI DIF 250</item>
+        <item>AMOXICILINA 250MG</item>
+        <item>AMOXICILINA 500</item>
+        <item>AMOXICILINA CLAVULANICO</item>
+        <item>AMOXICILINA IFARBO 1G</item>
+        <item>AMOXICRIS 500</item>
+        <item>AMOXICRIS DUO 250</item>
+        <item>AMOXICRIS DUO 500</item>
+        <item>AMOXIFAR DUO</item>
+        <item>AMOXILANICO DUO</item>
+        <item>AMOXILANICO</item>
+        <item>AZITROALCOS SUSPENSION</item>
+        <item>AZITROMICINA 200MG/5ML</item>
+        <item>AZITROMICINA</item>
+        <item>BACTICEL FORTE</item>
+        <item>BACTICEL</item>
+        <item>BACTODINE</item>
+        <item>BAMMOX</item>
+        <item>BROXILIN DUO FUERTE"</item>
+        <item>BROXILIN DUO</item>
+        <item>CEFABIOTIC 100MG/5ML</item>
+        <item>CEFADROXILO</item>
+        <item>CEFIRAX</item>
+        <item>CEFIXCRIS 100</item>
+        <item>CEFIXIMA</item>
+        <item>CEFOTRIX 250mg</item>
+        <item>CEFPODOXIMA</item>
+        <item>CESTODEN 400MG/10ML</item>
+        <item>CLARIBIOTIC 125</item>
+        <item>CLARIBIOTIC 250</item>
+        <item>CLARIMEX 250MG/5ML</item>
+        <item>CLARITROMICINA</item>
+        <item>CLOXACILINA</item>
+        <item>COTRIMOXAZOL 200/40MG</item>
+        <item>COTRIMOXAZOL FORTE</item>
+        <item>COTRIXELL F</item>
+        <item>COTRIXELL S</item>
+        <item>DIACTRIN FUERTE</item>
+        <item>DIACTRIN</item>
+        <item>DITRALCINA 1000</item>
+        <item>DITRALCINA 500</item>
+        <item>ERITROMICINA 125</item>
+        <item>ERITROMICINA 250</item>
+        <item>ERITROMICINA</item>
+        <item>FLAGYTOL 250MG/5ML</item>
+        <item>FLUCONAL 50MG/5ML</item>
+        <item>FLUCONAZOL</item>
+        <item>IFAMET 125MG/5ML</item>
+        <item>IFAMET 250MG/5ML</item>
+        <item>IFATRIM 200MG-40MG/5ML</item>
+        <item>LASER 250</item>
+        <item>LEFREN</item>
+        <item>MACROTROM 200</item>
+        <item>MACROTROM FORTE</item>
+        <item>MEBENDAZOL 100MG/5ML</item>
+        <item>MEBENDAZOL</item>
+        <item>MEBENFAR 100MG/5ML</item>
+        <item>METROGYN  250MG</item>
+        <item>METROGYN</item>
+        <item>METRONIDAZOL 125</item>
+        <item>METRONIDAZOL 250MG/5ML</item>
+        <item>METRONIDAZOL</item>
+        <item>MOXILIN 250MG/5ML</item>
+        <item>MOXILIN 500MG</item>
+        <item>MOXILIN DUO</item>
+        <item>MULTIVERM</item>
+        <item>MYCOTIX</item>
+        <item>NISTATINA 100.000UI/ML</item>
+        <item>NISTATINA 500.000UI/5ml</item>
+        <item>NISTATINA</item>
+        <item>PIRANTEL 250MG/5ML</item>
+        <item>PIRANTELINA 250MG/5ML</item>
+        <item>POSITRIN 500</item>
+        <item>SULFAMETOXAZOL TRIMETOPRIMA VITA</item>
+        <item>SULFATRIM FORTE</item>
+        <item>SULFATRIM</item>
+        <item>TRIACEF 200 MG</item>
+        <item>TRIACEF</item>
+        <item>TRIMESOL FORTE</item>
+        <item>TRIMETOPRIMA SULFAMETOXAZOL</item>
+        <item>VERMIFUGO 100MG/5ML</item>
+        <item>VERMIZOL 100MG/5ML</item>
+        <item>VITANIDAZOL 125MG/5ML</item>
+        <item>VITANIDAZOL 250MG/5MLVITA</item>
+        <item>XELPRIM FORTE</item>
+        <item>XELPRIM</item>
+        <item>ZITROMIN 200MG/5ML</item>
+    </string-array>
+
+    <string-array name="ANTITUSIGENOS_BOLIVIA">
+        <item>ACETILCISTEINA</item>
+        <item>AMBROX ADULTOS</item>
+        <item>AMBROX NIÑOS</item>
+        <item>AMBROXOL 15MG/5ML</item>
+        <item>AMBROXOL FORTE 30MG/ 5ML</item>
+        <item>AMBROXOL INFANTIL</item>
+        <item>AMBROXOL</item>
+        <item>BRONCATOX</item>
+        <item>BRONCOTEROL ADULTO</item>
+        <item>BRONCOTEROL INFANTIL</item>
+        <item>BRONCOXOL ADULTO 30MG/5ML</item>
+        <item>BRONCOXOL INFANTIL 15MG/5ML</item>
+        <item>DEXTROMETORFANO 10MG/5 ML</item>
+        <item>DEXTROMETORFANO</item>
+        <item>ETUSAR</item>
+        <item>FLUIMUCIL 2%</item>
+        <item>FLUIMUCIL 4%</item>
+        <item>FLUIMUX</item>
+        <item>INTIBROXOL</item>
+        <item>JARABE ANTITUSIGENO S</item>
+        <item>LEVODROPROPIZINA</item>
+        <item>METORFANTOS</item>
+        <item>MUXATIL</item>
+        <item>TERBUROP</item>
+        <item>TERBUTALINA</item>
+        <item>TEROLBROX</item>
+        <item>TORFANTOS</item>
+        <item>TOSUNYL</item>
+    </string-array>
+
+    <string-array name="ANTIALERGICOS_BOLIVIA">
+        <item>DEGRALER FORTE</item>
+        <item>DEGRALER GOTAS</item>
+        <item>DEGRALER</item>
+        <item>DESLORATADINA</item>
+        <item>HISTAFREN NF</item>
+        <item>KETONAL</item>
+        <item>KETOTIFENO</item>
+        <item>LEVOCETIRIZINA</item>
+        <item>LEVOTREX GOTAS</item>
+        <item>LEVOTREX</item>
+        <item>LIBBERA</item>
+        <item>LORALGEX 2,5MG/5ML</item>
+        <item>LORASTAMIN</item>
+        <item>LORATADINA</item>
+        <item>NEOALERG</item>
+        <item>NOVO ALERGINA</item>
+        <item>ZENTROL</item>
+        <item>ZIVAL GOTAS</item>
+        <item>ZIVAL SOLUCION</item>
+    </string-array>
+    <string-array name="ASMA">
+        <item>SALBUTAMOL NEBULIZADOR</item>
+        <item>SALBUTAMOL INHALADOR</item>
+        <item>BROMURO DE IPRATROPIO NEBULIZADOR</item>
+        <item>BROMURO DE IPRATROPIO INHALADOR</item>
+        <item>TERBUTALINA JARABE</item>
+        <item>TERBUTALINA INHALADOR</item>
+        <item>BUDESONIDA NEBULIZADOR</item>
+        <item>BUDESONIDA INHALADOR</item>
+
+    </string-array>
+    <string name="title_activity_indice_gravedad_asma2">IndiceGravedadAsma2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+</resources>

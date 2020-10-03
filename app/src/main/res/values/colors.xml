@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#63D81B</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorAzul">#0000FF</color>
+    <color name="colorMio">#E4F0E2</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="botnActivo">#3802DA</color>
+    <color name="botnInactivo">#CDCECE</color>
+    <color name="colorLetBlaneutra">#EFEAEA</color>
+    <color name="colorLetMorada">#5A006D</color>
+    <color name="colorLetBlancDif">#E8E7E7</color>
+
+    #5A006D
+</resources>
