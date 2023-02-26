@@ -7,6 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
+import com.example.seeejemplo.accesorio.DatosReaderDbHelper;
+import com.example.seeejemplo.accesorio.DatosRegistro;
+import com.example.seeejemplo.accesorio.Medicamento;
+
 import java.sql.SQLException;
 import java.util.Date;
 

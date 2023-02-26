@@ -16,6 +16,10 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.seeejemplo.accesorio.BanderaActivity;
+import com.example.seeejemplo.accesorio.DatosReaderDbHelper;
+import com.example.seeejemplo.accesorio.DatosRegistro;
+
 public class Segundo extends AppCompatActivity {
     AutoCompleteTextView auto;
     String botonActivo ="todo", clase = "segundo";

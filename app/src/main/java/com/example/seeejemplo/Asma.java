@@ -15,6 +15,13 @@ import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.example.seeejemplo.accesorio.AsmaTabla;
+import com.example.seeejemplo.accesorio.BanderaActivity;
+import com.example.seeejemplo.accesorio.DatosReaderDbHelper;
+import com.example.seeejemplo.accesorio.IndiceAsma4;
+import com.example.seeejemplo.accesorio.Jarabes;
+import com.example.seeejemplo.accesorio.Medicamento;
+
 import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.util.Vector;

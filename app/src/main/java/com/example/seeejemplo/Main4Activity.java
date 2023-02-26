@@ -16,6 +16,9 @@ import android.widget.TextView;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.seeejemplo.accesorio.BanderaActivity;
+import com.example.seeejemplo.accesorio.DatosReaderDbHelper;
+
 import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.util.Vector;
@@ -120,10 +123,7 @@ public class Main4Activity extends AppCompatActivity {
         ////// TODO PENDIENTE
 
         array_jarabes=manager.sacar_numStrin(jarabes_por5ml);
-        //*****************************modificado 10/05/20
 
-
-        //*****************************modificado 10/05/20
         final String cont_sacado;
         cont_sacado=array_datos[3][0];
 

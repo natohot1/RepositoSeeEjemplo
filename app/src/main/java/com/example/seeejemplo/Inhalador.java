@@ -19,6 +19,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.seeejemplo.accesorio.BanderaActivity;
+import com.example.seeejemplo.accesorio.DatosReaderDbHelper;
+
 import java.text.DecimalFormat;
 import java.util.Vector;
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.seeejemplo">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -9,7 +8,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IndiceAsma4"></activity>
+        <activity android:name=".accesorio.IndiceAsma4"></activity>
         <activity
             android:name=".Main4Activity"
             android:screenOrientation="fullSensor" />
@@ -17,7 +16,7 @@
             android:name=".Asma2"
             android:screenOrientation="fullSensor" />
         <activity android:name=".Inhalador" />
-        <activity android:name=".BanderaActivity" />
+        <activity android:name=".accesorio.BanderaActivity" />
         <activity
             android:name=".Asma"
             android:screenOrientation="fullSensor" />
@@ -27,7 +26,8 @@
             android:label="@string/title_activity_fullscreen"
             android:theme="@style/FullscreenTheme" />
         <activity android:name=".Segundo" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
