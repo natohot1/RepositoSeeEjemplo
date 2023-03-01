@@ -104,6 +104,7 @@
         android:layout_marginEnd="10dp"
         android:hint="DOS O TRES LETRAS SUFICIENTE"
         android:textSize="16sp"
+        android:layout_marginTop="25dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline55"
         app:layout_constraintEnd_toStartOf="@+id/bor"
         app:layout_constraintHorizontal_bias="0.4"
@@ -115,7 +116,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.7017784" />
+        app:layout_constraintGuide_percent="0.72" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7920657" />
 
     <ListView
         android:id="@+id/miLIsta"
@@ -138,7 +146,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.8" />
+        app:layout_constraintGuide_percent="0.8604651" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline20"
@@ -226,7 +234,6 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="2dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="2dp"
         android:onClick="onClick1"
@@ -234,15 +241,15 @@
         android:textColor="#EFEAEA"
         app:layout_constraintBottom_toTopOf="@+id/guideline18"
         app:layout_constraintEnd_toStartOf="@+id/guideline17"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintTop_toTopOf="@+id/guideline40" />
 
     <Button
         android:id="@+id/btdAsma"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="1dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="1dp"
         android:onClick="onClick1"
@@ -250,16 +257,16 @@
         android:textColor="#EFEAEA"
         app:layout_constraintBottom_toTopOf="@+id/guideline18"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="@+id/guideline17"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintTop_toTopOf="@+id/guideline40" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.9" />
+        app:layout_constraintGuide_percent="0.93433654" />
 
     <Button
         android:id="@+id/btdAnalgesicos"
