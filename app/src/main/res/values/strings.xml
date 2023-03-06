@@ -689,6 +689,36 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_vaso">ActivityVaso</string>
+    <string name="title_activity_vaso2">ActivityVaso2</string>
+
+    <string-array name="arraydrogas">
+        <item>DOPAMINA</item>
+        <item>DOBUTAMINA</item>
+        <item>NORADRENALINA</item>
+        <item>NITROGLICERINA</item>
+    </string-array>
+    <string-array name="arraydopa">
+        <item>2 ug/kg/min</item>
+        <item>20 ug/kg/min</item>
+
+    </string-array>
+    <string-array name="arraynoradrenalina">
+        <item>0,05 ug/kg/min</item>
+        <item>0,5 ug/kg/min</item>
+
+    </string-array>
+    <string-array name="arraysolventes">
+        <item>50 ml</item>
+        <item>100 ml</item>
+        <item>200 ml</item>
+        <item>250 ml</item>
+        <item>500 ml</item>
+        <item>1000 ml</item>
+    </string-array>
+
+
+
     <!-- Strings used for fragments for navigation -->
 
 

@@ -15,6 +15,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.sql.SQLException;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Vector;
@@ -32,6 +33,9 @@ public class DatosReaderDbHelper extends SQLiteOpenHelper {
     public static final String TABLA_JARABES = "jarabes";
     public static final String TABLA_JARABES2 = "jarabes2";
     public static final String TABLA_ASMA = "asma";
+
+    private static final String DATABASE_NOMBRE = "drogas.db";
+    public static final String TABLE_DROGA = "droga";
 
     private static final String COLUMNA_MEDICAMENTO = "medicamento";
     private static final String COLUMNA_PESO = "peso";
@@ -1107,6 +1111,169 @@ public class DatosReaderDbHelper extends SQLiteOpenHelper {
 
         return devuelve2;
     }
+
+    //OBTENER MEDICAMENTO
+    public String[] medicina(String med) throws android.database.SQLException {
+        openDB();
+        String medici[] = new String[5];
+        int contador = 0;
+        String selection = Droga.CN_nombre + " = ? ";
+        String selectionArgs[] = new String[]{med};
+        Cursor c = myDataBase.query(
+                "droga",
+                null,
+                selection,
+                selectionArgs,
+                null,
+                null,
+                null
+        );
+        if (c != null) {
+            c.moveToFirst();
+        }
+        close();
+        while (contador <= 3) {
+            medici[contador] = c.getString(contador);
+            contador++;
+        }
+        return medici;
+    }
+    //OBTENER MEDICAMENTO POR NOMBRE COMERCIAL NECESITA EL NOMBRE COMERCIAL
+    public String[] medicinaComerial(String med) throws android.database.SQLException {
+        openDB();
+        String medici[] = new String[5];
+        int contador = 0;
+        String selection = Droga.CN_comercial + " = ? ";
+        String selectionArgs[] = new String[]{med};
+        Cursor c = myDataBase.query(
+                "droga",
+                null,
+                selection,
+                selectionArgs,
+                null,
+                null,
+                null
+        );
+        if (c != null) {
+            c.moveToFirst();
+        }
+        close();
+        while (contador <= 3) {
+            medici[contador] = c.getString(contador);
+            contador++;
+        }
+        return medici;
+    }
+    //OBTIENE LAS DOSIS DE LOS MEDICAMENTOS
+    public String[] dosis(String med)throws android.database.SQLException {
+        openDB();
+        int contador = 0,tamano=0;
+        String medici[] = new String[10];
+        String selection = Droga.CN_nombre + " = ? ";
+        String selectionArgs[] = new String[]{med};
+        Cursor c=myDataBase.query(Dosis.Tabla_dosis,null,selection,selectionArgs,null,null,null);
+        if (c != null) { c.moveToFirst(); }
+        close();
+        while (contador<=9) {
+            if(c.getString(contador)!=null){
+                medici[contador] = c.getString(contador);
+                tamano++;}
+            contador++;
+        }
+        String devol[] = new String[tamano];
+        devol = medici;
+
+        return devol;
+
+    }
+
+    //OBTENER SOLO LOS NOMBRES DE MEDICAMENTOS
+    public String[] nombresMedicamento() throws android.database.SQLException {
+        openDB();
+        int contador = 0;
+        String [] campos = {Droga.CN_nombre};
+        Cursor c = myDataBase.query(
+                Droga.Tabla_droga,
+                campos, null, null, null, null, null
+        );
+        if (c != null) { c.moveToFirst(); }
+        close();
+        int tamcursor = c.getCount();
+        ArrayList<String> sacados = new ArrayList<>();
+        if (c.moveToFirst()){
+            do{
+                sacados.add(c.getString(0));
+            } while (c.moveToNext());
+        }
+        int tamano = sacados.size();
+        String medicamentos[] = new String[tamano];
+        contador = 0;
+        while (contador < (sacados.size())){
+            medicamentos[contador] = sacados.get(contador);
+            contador++;
+        }
+        return medicamentos;
+    }
+
+    //OBTENER SOLO LOS NOMBRES DE MEDICAMENTOS
+    public String[] nombresComerciales() throws android.database.SQLException {
+        openDB();
+        int contador = 0;
+        String [] campos = {Droga.CN_comercial};
+        Cursor c = myDataBase.query(
+                Droga.Tabla_droga,
+                campos, null, null, null, null, null
+        );
+        if (c != null) { c.moveToFirst(); }
+        close();
+        int tamcursor = c.getCount();
+        ArrayList<String> sacados = new ArrayList<>();
+        if (c.moveToFirst()){
+            do{
+                sacados.add(c.getString(0));
+            } while (c.moveToNext());
+        }
+        int tamano = sacados.size();
+        String medicamentos[] = new String[tamano];
+        contador = 0;
+        while (contador < (sacados.size())){
+            medicamentos[contador] = sacados.get(contador);
+            contador++;
+        }
+        return medicamentos;
+    }
+
+    public String[] dosisMedica (String nombMedicamentoGenrico) {
+        //Debe traer medicamento Generico
+        openDB();
+        int contador = 0;
+        String [] campos = {Dosis.CN_nombre};
+        Cursor c = myDataBase.query(
+                Dosis.Tabla_dosis,
+                campos,null,null,null,null,null
+        );
+        if (c != null) {c.moveToFirst();}
+        close();
+        int tamcursor = c.getCount();
+        ArrayList<String> sacados = new ArrayList<>();
+        if (c.moveToFirst()){
+            do{
+                sacados.add(c.getString(0));
+            } while (c.moveToNext());
+        }
+        int tamano = sacados.size();
+        String medicamentos[] = new String[tamano];
+        contador = 0;
+        while (contador < (sacados.size())){
+            medicamentos[contador] = sacados.get(contador);
+            contador++;
+        }
+        return medicamentos;
+
+    }
+
+
+
 
 
 
