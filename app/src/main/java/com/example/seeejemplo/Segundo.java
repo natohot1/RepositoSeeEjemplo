@@ -24,7 +24,7 @@ public class Segundo extends AppCompatActivity {
     AutoCompleteTextView auto;
     String botonActivo ="todo", clase = "segundo";
     DatosReaderDbHelper manager;
-    Button btAntibiotico, btAnalgesicos, btTos,btAlergia,btAsma,btTodo,btVaso,btCorti;
+    Button btAntibiotico, btAnalgesicos, btTos,btAlergia,btAsma,btTodo;
     ImageButton btBanera;
 
     Cursor cur_bandera;
@@ -188,11 +188,6 @@ public class Segundo extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void pasarVaso(){
-        Intent intent = new Intent(Segundo.this, ActivityVaso2.class);
-        startActivity(intent);
-    }
-
 
     private void cargarcomponentes() {
         auto = findViewById(R.id.autoCompleteTextView);
@@ -200,8 +195,6 @@ public class Segundo extends AppCompatActivity {
         btAntibiotico = findViewById(R.id.btdAntibiticos);
         btTos = findViewById(R.id.btdTos);
         btAlergia = findViewById(R.id.btdAntialergicos);
-        btVaso = findViewById(R.id.btdVaso);
-        btCorti = findViewById(R.id.btdCorticoides);
         btAsma = findViewById(R.id.btdAsma);
         btTodo = findViewById(R.id.btdTodo);
         lista = findViewById(R.id.miLIsta);
@@ -233,8 +226,7 @@ public class Segundo extends AppCompatActivity {
         btAlergia.setTextSize(anchoP);
         btAsma.setTextSize(anchoP);
         btTodo.setTextSize(anchoP);
-        btCorti.setTextSize(anchoP);
-        btVaso.setTextSize(anchoP);
+
 
         //ESTABLECE BANDERA
         try {
@@ -289,8 +281,7 @@ public class Segundo extends AppCompatActivity {
                 activarTodo();
                 closeKeyboard();
                 break;
-            case (R.id.btdVaso):
-                pasarVaso();
+
         }
     }
     public void onClickBandera(View view) {
@@ -471,11 +462,7 @@ public class Segundo extends AppCompatActivity {
         btAntibiotico.setTextColor(getResources().getColor(R.color.colorLetBlaneutra));
         btAntibiotico.setBackgroundResource(R.drawable.animadeselcionado);
 
-        btVaso.setTextColor(getResources().getColor(R.color.colorLetBlaneutra));
-        btVaso.setBackgroundResource(R.drawable.animadeselcionado);
 
-        btCorti.setTextColor(getResources().getColor(R.color.colorLetBlaneutra));
-        btCorti.setBackgroundResource(R.drawable.animadeselcionado);
     }
     public void quitarBotones() {
         btAnalgesicos.setVisibility(View.GONE);
