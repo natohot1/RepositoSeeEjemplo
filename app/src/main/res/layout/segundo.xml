@@ -7,7 +7,7 @@
     android:background="@drawable/car_fer23"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context=".Segundo"
+    tools:context="com.jarabe.seeejemplo.Segundo"
     tools:layout_editor_absoluteY="81dp">
 
     <ImageButton

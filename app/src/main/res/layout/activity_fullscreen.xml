@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/hospi1007defi"
     android:clickable="true"
-    tools:context=".FullscreenActivity">
+    tools:context="com.jarabe.seeejemplo.FullscreenActivity">
 
     <TextView
         android:id="@+id/texmio"

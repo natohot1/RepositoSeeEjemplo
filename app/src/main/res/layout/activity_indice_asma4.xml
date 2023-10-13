@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".accesorio.IndiceAsma4">
+    tools:context="com.jarabe.seeejemplo.accesorio.IndiceAsma4">
 
     <com.github.chrisbanes.photoview.PhotoView
         android:id="@+id/photo_view"

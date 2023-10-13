@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo23sep"
-    tools:context=".Asma2">
+    tools:context="com.jarabe.seeejemplo.Asma2">
 
     <ImageButton
         android:id="@+id/btBandera"
