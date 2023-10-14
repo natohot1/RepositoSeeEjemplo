@@ -16,6 +16,9 @@
         <activity
             android:name="com.jarabe.seeejemplo.Asma2"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jarabe.seeejemplo.accesorio.IndiceAsma4"
+            android:screenOrientation="portrait" />
         <activity android:name="com.jarabe.seeejemplo.Inhalador"
             android:screenOrientation="portrait"/>
         <activity android:name="com.jarabe.seeejemplo.accesorio.BanderaActivity"
