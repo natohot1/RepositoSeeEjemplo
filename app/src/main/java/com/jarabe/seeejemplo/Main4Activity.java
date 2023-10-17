@@ -16,7 +16,6 @@ import android.widget.TextView;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.seeejemplo.R;
 import com.jarabe.seeejemplo.accesorio.BanderaActivity;
 import com.jarabe.seeejemplo.accesorio.DatosReaderDbHelper;
 

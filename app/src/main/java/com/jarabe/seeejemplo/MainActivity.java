@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
-import com.example.seeejemplo.R;
+import com.jarabe.seeejemplo.R;
 import com.jarabe.seeejemplo.accesorio.DatosReaderDbHelper;
 import com.jarabe.seeejemplo.accesorio.DatosRegistro;
 import com.jarabe.seeejemplo.accesorio.Medicamento;

@@ -15,7 +15,6 @@ import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.example.seeejemplo.R;
 import com.jarabe.seeejemplo.accesorio.AsmaTabla;
 import com.jarabe.seeejemplo.accesorio.BanderaActivity;
 import com.jarabe.seeejemplo.accesorio.DatosReaderDbHelper;

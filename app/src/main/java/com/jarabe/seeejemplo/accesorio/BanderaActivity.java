@@ -14,7 +14,7 @@ import android.widget.NumberPicker;
 import android.widget.TextView;
 
 import com.jarabe.seeejemplo.FullscreenActivity;
-import com.example.seeejemplo.R;
+import com.jarabe.seeejemplo.R;
 import com.jarabe.seeejemplo.Segundo;
 
 public class BanderaActivity extends AppCompatActivity {

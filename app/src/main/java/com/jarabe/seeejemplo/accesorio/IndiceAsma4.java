@@ -7,8 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jarabe.seeejemplo.Asma;
-import com.example.seeejemplo.R;
+
 import com.github.chrisbanes.photoview.PhotoView;
+import com.jarabe.seeejemplo.R;
 
 public class IndiceAsma4 extends AppCompatActivity {
     Bundle datos;
@@ -17,6 +18,7 @@ public class IndiceAsma4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+       // setContentView(R.layout.activity_indice_asma4);
         setContentView(R.layout.activity_indice_asma4);
 
         datos = getIntent().getExtras();

@@ -19,7 +19,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.seeejemplo.R;
 import com.jarabe.seeejemplo.accesorio.BanderaActivity;
 import com.jarabe.seeejemplo.accesorio.DatosReaderDbHelper;
 

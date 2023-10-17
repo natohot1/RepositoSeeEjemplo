@@ -6,6 +6,7 @@
 
     <color name="black_overlay">#66000000</color>
     <color name="colorAzul">#0000FF</color>
+    <color name="colorAzul2">#2C2CD6</color>
     <color name="colorMio">#E4F0E2</color>
     <color name="blanco">#FFFFFF</color>
     <color name="botnActivo">#3802DA</color>

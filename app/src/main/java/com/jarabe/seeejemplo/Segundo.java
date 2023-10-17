@@ -16,7 +16,7 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.seeejemplo.R;
+import com.jarabe.seeejemplo.R;
 import com.jarabe.seeejemplo.accesorio.BanderaActivity;
 import com.jarabe.seeejemplo.accesorio.DatosReaderDbHelper;
 import com.jarabe.seeejemplo.accesorio.DatosRegistro;

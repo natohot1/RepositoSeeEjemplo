@@ -6,38 +6,46 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
         android:screenOrientation="portrait"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
-            android:name="com.jarabe.seeejemplo.Main4Activity"
+            android:name=".accesorio.AcercaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accesorio.ColaboraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Main4Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.jarabe.seeejemplo.Asma2"
+            android:name=".Asma2"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.jarabe.seeejemplo.accesorio.IndiceAsma4"
-            android:screenOrientation="portrait" />
-        <activity android:name="com.jarabe.seeejemplo.Inhalador"
-            android:screenOrientation="portrait"/>
-        <activity android:name="com.jarabe.seeejemplo.accesorio.BanderaActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.jarabe.seeejemplo.Asma"
+            android:name=".accesorio.IndiceAsma4"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.jarabe.seeejemplo.FullscreenActivity"
+            android:name=".Inhalador"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accesorio.BanderaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Asma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name="com.jarabe.seeejemplo.Segundo"
-            android:screenOrientation="portrait"/>
         <activity
-            android:name="com.jarabe.seeejemplo.MainActivity"
-            android:screenOrientation="portrait"
-            android:exported="true">
+            android:name=".Segundo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

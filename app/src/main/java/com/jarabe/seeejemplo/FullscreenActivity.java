@@ -9,7 +9,8 @@ import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.seeejemplo.R;
+import com.jarabe.seeejemplo.accesorio.AcercaActivity;
+import com.jarabe.seeejemplo.accesorio.ColaboraActivity;
 import com.jarabe.seeejemplo.accesorio.DatosReaderDbHelper;
 
 /**
@@ -23,6 +24,7 @@ public class FullscreenActivity extends AppCompatActivity {
     private static final int repeticion = 4;
     private int contador = 0;
     private String botonActivo = "todo", clase = "1";
+    private Button btnsalto, btColaboraador, btnAcerca;
     DatosReaderDbHelper manager;
 
 
@@ -38,7 +40,9 @@ public class FullscreenActivity extends AppCompatActivity {
 
         texto=(TextView)findViewById(R.id.texmio);
         final String textos[]={"SOLO NECESITAS","DOS O TRES LETRAS","DESLIZAR LA BARRA","YA ESTA"};
-        Button salto=(Button)findViewById(R.id.btnValidar);
+        btnsalto =(Button)findViewById(R.id.btnValidar);
+        btColaboraador=(Button)findViewById(R.id.btColabora);
+        btnAcerca=(Button)findViewById(R.id.btAcerca);
         manager.pasarDatos(clase,botonActivo);
 
         //<editor-fold desc="VALORES ANIMACION">
@@ -89,9 +93,6 @@ public class FullscreenActivity extends AppCompatActivity {
              //       manager.pasarDatos(clase,botonActivo);
                     Intent intent = new Intent(FullscreenActivity.this, Segundo.class);
 
-                   // Bundle bundle = new Bundle();
-                   // bundle.putString("boton", botonActivo);
-                   // intent.putExtras(bundle);
                     startActivity(intent);}
 
             }
@@ -102,7 +103,7 @@ public class FullscreenActivity extends AppCompatActivity {
             }
         });
         texto.startAnimation(fadein);
-        salto.setOnClickListener(new View.OnClickListener() {
+        btnsalto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
               //  manager.pasarDatos(clase,botonActivo);
@@ -110,6 +111,22 @@ public class FullscreenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btColaboraador.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FullscreenActivity.this, ColaboraActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnAcerca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FullscreenActivity.this, AcercaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
         //</editor-fold>
 
 
